@@ -1,0 +1,46 @@
+.latest-root {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .latest-text {
+      text-align: center;
+  }
+  
+  .item-card-root {
+    display: grid;
+    background: rgba(34, 34, 34, 1);
+    padding: 30px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    margin: 2%;
+    place-items: center;
+    border-radius: 20px;
+  }
+  
+  .item {
+      cursor: pointer;
+      width: min-content;
+      margin-bottom: 20%;
+  }
+  
+  .item-img {
+      height: 200px;
+  }
+  
+  .item-name {
+      font-weight: 400;
+      text-align: center;
+      text-align: center;
+  
+  }
+  
+  .item-released {
+      font-weight: 400;
+      font-size: 14px;
+      text-align: center;
+  
+  }
+  

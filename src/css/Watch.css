@@ -1,0 +1,90 @@
+.watch-root {
+  display: flex;
+}
+
+.anime-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  /* margin-left: 20%; */
+  width: max-content;
+}
+
+.right-side {
+  margin-left: 5%;
+}
+
+.red {
+  color: red;
+}
+
+.blue {
+  color: cyan;
+}
+
+.player-iframe {
+  /* margin-left: 20%; */
+  aspect-ratio: 16/9;
+  width: 100vh;
+  height: min-content;
+  margin-bottom: 5%;
+}
+
+.episodes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  width: 95%;
+  gap: 10px;
+  /* margin-left: 20%; */
+  background: rgba(34, 34, 34, 1);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.episode-box {
+  height: 40px;
+  width: 40px;
+  background-color: #303030;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+
+  transition: 0.1s;
+  cursor: pointer;
+
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  text-align: center;
+}
+
+.episode-box:hover {
+  background-color: #4d4d4d;
+}
+
+.current {
+  background-color: #656565;
+}
+
+.left-side {
+  margin-left: 5%;
+  margin-top: 2%;
+  margin-right: 5%;
+
+  font-family: "Poppins", sans-serif;
+  background: rgba(34, 34, 34, 1);
+  width: 100%;
+}
+
+.left-side div {
+  margin: 5%;
+}
+
+.left-side h2 {
+  font-weight: 600;
+}
+
+.green {
+  color: rgba(18, 225, 0, 1);
+}
